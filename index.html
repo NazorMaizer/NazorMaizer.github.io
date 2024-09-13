@@ -12,6 +12,8 @@
 </head>
 
 <body>
+    <h1> Сайт с гиперссылками и формой</h1>
+    <p> Работу выполнил Чугуй Никита, гр. 25/1 </p>
     <ul>
         <li><a href="http://www.kubsu.ru/" title="Официальный сайт
 Кубанского государственного
@@ -23,33 +25,27 @@
         	<img src="image.jpg" alt="Красивая африканская ромашка" style="width: 600px;" />
             </a>
         </li>
-        <li><a href="#about">О компании</a></li>
-        <li><a href="#services">Услуги</a></li>
-        <li><a href="#contacts">Контакты</a></li>
+        <li><a href="./about">На внутреннюю страницу</a></li>
+        <li><a href="index">На главную страницу</a></li>
+        <li><a href="#form">Форма</a></li>
+        <li><a title="Без href, вот так!">Без href</a></li>
+        <li><a href="">Пустой href</a></li>
+        <li><a href="https://www.youtube.com/" rel="nofollow">Ботам не сюда</a></li>
+        <li><a href="https://www.kubsu.com/" robots="noindex">Скрыта от индексации</a></li>
+        <li>
+            <ol>
+                <li><a href="https://www.youtube.com/dQw4w9WgXcQ" title="Слава творчеству!">Ссылка в списке</a></li>
+                <li><a href="https://tenor.com/vgKN.gif" title="Капельку больше творчества"> Вторая ссылка в списке</a></li>
+            </ol>
+            <li><a href="https://www.pinterest.com/pin/406027722648030185/#pin-closeup-image">
+        Фрагмент страницы другого сайта. Чтоб нам всем там отдыхать...</a>
+            </li>
+
     </ul>
 
-    <h2>Нумерованный список</h2>
-
-    <ol>
-        <li>Элемент 1</li>
-        <li>Элемент 2</li>
-        <li>Элемент 3</li>
-    </ol>
-
-    <h2>Таблица</h2>
-
-    <table>
-        <tr>
-            <td>Первая ячейка первой строки</td>
-            <td>Вторая ячейка первой строки</td>
-        </tr>
-        <tr>
-            <td>Первая ячейка второй строки</td>
-            <td>Вторая ячейка второй строки</td>
-        </tr>
-    </table>
-
-    <h1>Пример формы HTML</h1>
+    <p id="#form">
+        <h1>Форма</h1>
+    </p>
 
     <form action="/" method="POST">
 
@@ -74,7 +70,7 @@
 
         <label>
         Биография:<br />
-        <textarea name="Биография">Расскажите немного о себе</textarea>
+        <textarea name="Биография" placeholder="Расскажите немного о себе"></textarea>
       </label><br />
 
         <label>
