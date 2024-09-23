@@ -12,8 +12,21 @@
 </head>
 
 <body>
-    <h1> Сайт с гиперссылками и формой</h1>
-    <p> Работу выполнил Чугуй Никита, гр. 25/1 </p>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="logo.jpg" alt="It's your logo, yesss..." class="logo"/>
+      </div>
+    <div class="website-title">
+      <h1>Сайт с гиперссылками и формой</h1></div>
+    <nav class="menu">
+      <a href="#">Ссылка 1</a>
+      <a href="#">Ссылка 2</a>
+      <a href="#">Ссылка 3</a>
+    </nav>
+    </div>
+  </header>
+  <section class="hyperlinks">
     <ul>
         <li><a href="http://www.kubsu.ru/" title="Официальный сайт
 Кубанского государственного
@@ -40,9 +53,28 @@
             <li><a href="https://www.pinterest.com/pin/406027722648030185/#pin-closeup-image">
         Фрагмент страницы другого сайта. Чтоб нам всем там отдыхать...</a>
             </li>
-
     </ul>
+  </section>
 
+  <section class="some-table">
+    <table>
+      <tr>
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+      </tr>
+      <tr>
+        <th>Ячейка 1</th>
+        <th>Ячейка 2</th>
+      </tr>
+      <tr>
+        <th>Ячейка 3</th>
+        <th>Ячейка 4</th>
+      </tr>
+    </table>
+  
+      
+  <section class="form">
+    
     <p id="#form">Форма</p>
 
     <form action="/" method="POST">
@@ -50,8 +82,8 @@
         <label>
         ФИО:<br />
         <input name="ФИО" placeholder="Введите ваше ФИО"/>
-      </label><br />
-
+      </label>
+      <br />
         <label>
         Текстовое поле email:<br />
         <input name="Почта"
@@ -100,6 +132,9 @@
         Да</label><br /> Кнопка "Сохранить":
         <input type="submit" value="Сохранить" />
     </form>
+  <footer>
+     <p> (с) Чугуй Никита, гр. 25/1 </p>
+  </footer>
 
 </body>
 
