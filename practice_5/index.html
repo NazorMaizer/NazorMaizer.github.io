@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<!-- комментарий в HTML -->
+<!-- в первой строке мы сообщаем браузеру,
+  что это документ HTML5 -->
+<html lang="ru">
+<head>
+    <title> Калькулятор цены заказа</title>
+</head>
+<body>
+    <h1> Сайт с гиперссылками и формой</h1>
+    <p> Работу выполнил Чугуй Никита, гр. 25/1 </p>
+    <p id="#form">Форма</p>
 
+    <form action="/" method="POST">
+
+        <label>
+        ФИО:<br />
+        <input name="goods-amount" placeholder="Введите количество товара"/>
+      </label><br />
+
+        <label>
+        Товар:<br />
+        <select name="">
+          <option value="Значение1">Товар 1 (90)</option>
+          <option value="Значение2">Товар 2 (40)</option>
+        </select>
+      </label><br /> Пол:
+        <br />
+        <label><input type="radio"
+        name="radio-group-1" value="Женский" />
+        Женский</label>
+        <label><input type="radio"
+        name="radio-group-1" value="Мужской" checked="checked" />
+        Мужской</label><br /> С контрактом ознакомлен:
+        <br />
+        <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        Да</label><br /> Кнопка "Сохранить":
+        <input type="submit" value="Сохранить" />
+    </form>
+
+</body>
+
+</html>
