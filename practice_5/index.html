@@ -5,6 +5,7 @@
 <html lang="ru">
 <head>
     <title> Калькулятор цены заказа</title>
+    <script src="somestuff.js" defer></script>
 </head>
 <body>
     <h1> Калькулятор цены заказа</h1>
@@ -15,12 +16,12 @@
       <main>
         <label>
         Количество товара:<br />
-        <input name="goods-amount" placeholder="Введите количество товара"/>
+        <input id="goods" placeholder="Введите количество товара"/>
       </label><br />
 
         <label>
         Товар:<br />
-        <select name="">
+        <select name="Товары">
           <option value="Значение1">Товар 1 (90)</option>
           <option value="Значение2">Товар 2 (40)</option>
         </select>
@@ -28,7 +29,7 @@
       </main>
     <aside>
       Кнопка "Посчитать":
-        <input type="submit" value="Посчитать" />
+        <input type="submit" id="only_button" value="Посчитать" />
     </aside>
     </form>
   </div>
